@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURYA - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SURYA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <img src="images.jpg" alt="Profile picture of Surya">
+            <p>
+                I am a passionate technology enthusiast with a strong drive to become a skilled full-stack developer. My journey in the tech world has been fueled by a deep curiosity and a desire to build innovative solutions. With a solid foundation in Java and experience in various programming languages and frameworks, I am dedicated to creating seamless, user-centric applications. My key skills include front-end development, back-end programming, and database management, all of which I leverage to craft efficient and scalable software. I am eager to continue expanding my knowledge and expertise, with the goal of becoming a versatile developer who can tackle complex challenges in the ever-evolving tech landscape.
+            </p>
+        </section><br>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Full-Stack Developer Intern - ABC Tech Solutions</h3>
+                <p><strong>Duration:</strong> June 2023 - Present</p>
+                <p>Worked on developing and maintaining web applications using JavaScript, React.js, and Node.js. Collaborated with a team of developers to implement new features and optimize existing code, resulting in a 20% increase in application performance.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Frontend Developer - XYZ Innovations</h3>
+                <p><strong>Duration:</strong> January 2022 - May 2023</p>
+                <p>Led the frontend development for multiple client projects using HTML, CSS, and JavaScript. Improved user interface design, which increased user engagement by 15%.</p>
+            </div>
+            <!-- Add more experience items as needed -->
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2 style="color :rgb(32, 178, 6)">Projects</h2>
+            <br>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>LOGOMATIC AI</h3>
+                    <p>The "LogoMatic AI" project is a mock design agency platform that leverages AI technology to generate and customize logos for fictional companies based on client preferences and brand identity. The platform allows users to compare AI-generated logos with manually designed ones, offering insights into user acceptance and the viability of AI in creative design processes.</br>
+                        <br><b>Technologies Used:</b>
+                        <ul>
+                        <li>Frontend: HTML, CSS, JavaScript</li>
+                        <li>Backend: Node.js, Express.js </li>
+                        <li> AI Integration: AI algorithms for logo generation</li>
+                    </ul><br><B>My Role:</br></B>
+                        I was responsible for developing the frontend interface, integrating AI-based logo generation, and ensuring seamless user interaction. Additionally, I implemented features like feedback collection and logo download, contributing to both the design and functionality of the platform. </br></p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Planet Pulse: Drink in the Change</h3>
+                    <p>The "Planet Pulse: Drink in the Change" project is an innovative marketing campaign aimed at promoting a new eco-friendly water bottle. The project combines creative design and cutting-edge technology to develop an engaging digital advertisement that highlights the product's unique features, such as biodegradable materials and collaboration with environmental activists. The campaign is designed to stand out by avoiding clichés and delivering a message of sustainability with a fresh and compelling narrative.</br>
+                        <br><b>Technologies Used:</b>
+                        <ul>
+                        <li>HTML: For structuring the content and layout of the webpage.</li>
+                        <li>CSS: For styling the webpage, including custom fonts, responsive design, and visual enhancements. </li>
+                        <li> JavaScript: For adding interactivity, such as redirecting users to the shopping page.</li>
+                    </ul><br><B>My Role:</br></B>
+                    As the web page developer and content creator, you were responsible for designing and coding the webpage, ensuring it is visually appealing, user-friendly, and responsive. Additionally, you created the content that effectively communicates the product's benefits and engages the target audience. Your role involved crafting the overall narrative, selecting visual elements, and implementing interactive features to enhance user experience.</br></p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section><br>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>HTML & CSS</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <p>Thank you for visiting my portfolio. If you would like to get in touch, you can reach me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:suryario5354@gmail.com">suryario5354@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/surya-sivam5354" target="_blank">Your LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/Surya5354" target="_blank">Your GitHub Profile</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SURYA. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
